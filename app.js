@@ -34,7 +34,7 @@ for (let i = 0; i < inputElements.length; i++) {
   }, 1.5 * 1000);
 
 
-// TO BE FIXED!!
+  // Toggle input type from password to text (display password)
   function togglePasswordVisibility() {
     const passwordCheckbox = document.getElementById('user_password');
     console.log(passwordCheckbox)

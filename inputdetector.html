@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <div><h1 class="flex justify">Input detector</h1></div>
+        <div class="input-sec justify" id="user_email">
+            <div><label class="flex justify">Email</label></div>
+            <div><input type="email" class="input-field" id="user_email_field" value="joaopedrro12@gmail.com"></div>
+        </div>
+        <div class="input-sec justify">
+            <div><label class="flex justify">Password</label></div>
+            <div><input type="password" class="input-field" id="user_password" value="mypassword"></div>
+        </div>
+        <div class="flex justify" id="show-password">
+            <div><input type="checkbox" class="" id="check-password" onclick="togglePasswordVisibility()"></div>
+            <div><label class="flex justify">display password</label></div>
+        </div>
+    </section>
+</body>
+<script src="app.js"></script>
+</html>
